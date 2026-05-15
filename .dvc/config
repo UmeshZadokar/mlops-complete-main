@@ -1,0 +1,4 @@
+[core]
+    remote = myremote_mlops
+['remote "myremote_mlops"']
+    url = s3://churn-model-demo-jp
