@@ -50,7 +50,7 @@ jobs:
 
       - name: Update inference.yaml with s3 model path
         run: |
-          MODEL_URL = "s3://churn-model-demo-umesh-bucket/models/churn_model.pkl"
+          MODEL_URL ="s3://churn-model-demo-umesh-bucket/models/churn_model.pkl"
           sed -i "s|MODEL_URL_PLACEHOLDER|$MODEL_URL|g" k8S/inference.yaml
 
 
