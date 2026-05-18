@@ -45,7 +45,7 @@ jobs:
       - name: Deploy model to S3
         run: |
           aws s3 cp models/churn_model.pkl s3://${{ env.S3_BUCKET }}/models/churn_model.pkl
-          echo "Model deployed to S3 successfully!"
+          echo "Model deployed to S3 successfully!!!"
 
 
       - name: Update inference.yaml with s3 model path
