@@ -1,4 +1,4 @@
 [core]
-    remote = myremote_mlops
-['remote "myremote_mlops"']
-    url = s3://churn-model-demo-jp
+    remote = s3remote
+['remote "s3remote"']
+    url = s3://churn-model-demo-umesh-bucket
