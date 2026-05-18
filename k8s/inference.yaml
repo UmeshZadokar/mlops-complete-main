@@ -7,4 +7,4 @@ spec:
   predictor:
     serviceAccountName: sa-s3-access
     sklearn:
-      storageUri: MODEL_URL_PLACEHOLDER
+      storageUri: s3://churn-model-demo-umesh-bucket/models/churn_model.pkl
